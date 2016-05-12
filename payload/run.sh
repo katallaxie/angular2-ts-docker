@@ -6,7 +6,9 @@ echo "Hello, to the development ..."
 usermod -u $USER_ID nodejs
 
 # link modules
-ln -s /tmp/node_modules /app
+if [ ! -d "/app/node_modules" ]; then
+  ln -s /tmp/node_modules /app
+fi
 
 # run the grunt
 typings install

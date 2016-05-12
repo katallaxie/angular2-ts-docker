@@ -4,6 +4,8 @@ This docker is intended to be used along with [generator-angular2-ts](https://gi
 
 ## Build
 
+> it is highly recommended to squash the image (e.g. [docker-squash](https://github.com/goldmann/docker-squash))
+
 You can build the docker image by running
 
 ```
@@ -11,6 +13,8 @@ npm run build
 ```
 
 ## Running
+
+> you have to disable Chrome in BrowserSync
 
 You have to map your `[app]` directory into the docker at start.
 
