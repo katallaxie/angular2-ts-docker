@@ -1,4 +1,4 @@
-_SpecRunner.html
+# System
 ._*
 .apdisk
 .AppleDB
@@ -19,4 +19,6 @@ _SpecRunner.html
 .tmp
 .Trashes
 .VolumeIcon.icns
+
+# Tools
 npm-debug.log
