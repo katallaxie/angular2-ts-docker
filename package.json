@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run compile",
-    "compile": "docker build ."
+    "compile": "docker build -t angular2-ts-docker ."
   },
   "repository": {
   },
