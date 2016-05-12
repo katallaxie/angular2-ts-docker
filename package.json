@@ -1,6 +1,6 @@
 {
   "name": "angular2-ts-docker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A container for local development with the angular2-ts generator",
   "main": "",
   "scripts": {
