@@ -1,7 +1,7 @@
 # To build and run with Docker:
 #
-#  $ docker build -t angular2-ts .
-#  $ docker run -it --rm angular2-ts
+#  $ docker build -t angular2-ts-docker .
+#  $ docker run -it -v [app]:/app -e USER_ID=$(id -u) --rm -p 8080:8080 angular2-ts-docker
 #
 FROM node:latest
 
