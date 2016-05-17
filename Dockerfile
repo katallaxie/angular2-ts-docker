@@ -17,11 +17,13 @@ RUN mkdir -p /app /tmp /home/nodejs && \
 
 # global dependencies
 RUN npm i --unsafe-perm=true -g grunt-cli \
+  yo \
   typings \
   live-server \
   karma \
   nightwatch \
-  typescript
+  typescript \
+  generator-angular2-ts
 
 # setting up modules
 COPY payload/package.json payload/typings.json payload/run.sh  /tmp/
